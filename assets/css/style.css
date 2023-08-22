@@ -11,42 +11,7 @@
 --------------------------------------------------------------*/
 /* Basic styling for the div */
 /* Basic styling for news cards */
-.news-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  background-color: white;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
 
-/* Hover effect for news cards */
-.news-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling for news card elements */
-.news-title {
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.news-summary {
-  margin-top: 8px;
-  font-size: 16px;
-  color: #666;
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 16px;
-  color: blue;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 
 
