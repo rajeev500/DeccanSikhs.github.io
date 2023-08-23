@@ -34,23 +34,94 @@ body {
 .display1{
   display: flex;
   flex-direction: row;
+  padding:10px;
 }
-.carousel-img{
 
-  width: 650px;
-  min-width: 412px;
-  height: 400px;
-}
 .card-text{
-  font-size: 14px;
+  font-size: 13px;
 }
 .img {
   width: 150px;
-  height:208px
+  height:190px;
+  border-radius:10px;
 }
+@media screen and (min-width:200px) and (max-width:300px) {
+
+  .img {
+    width: 80px;
+    height:190px
+
+  }
+}
+
+
+
+
 .img1 {
   width: 150px;
-  height:170px
+  height:153px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width:200px) and (max-width:300px) {
+
+  .img {
+    width: 80px;
+    height:190px
+
+  }
+}
+
+
+.card-img-top{
+ border-radius: 20px;
+ padding: 10px; 
+}
+@media screen and (min-width:200px) and (max-width:300px) {
+
+  .img {
+    width: 80px;
+    height:190px
+
+  }
+}
+
+
+.card-img-top1{
+
+}
+@media screen and (min-width:0px) and (max-width:300px) {
+
+ 
+
+.card-img-top1{
+  width: 80px;
+  height:190px
+}}
+
+/* .card-body1{
+
+}
+@media screen and (min-width:0px) and (max-width:770px) {
+.card-body1{
+  width: 40px;
+  height:10px;
+  font-size: 1px;
+}} */
+
+
+.carousel-img{
+
+  width: 650px;
+
+  height: 400px;
+}
+@media screen and (min-width:200px) and (max-width:500px) {
+  .carousel-img{
+
+    width: 390px;
+     height: 400px;
+  }
 }
 
 a {
