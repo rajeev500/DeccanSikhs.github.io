@@ -13,7 +13,10 @@
 /* Basic styling for news cards */
 
 
-
+/* .container{
+  padding: 0;
+  margin: ;
+} */
 
 
 
@@ -72,17 +75,19 @@ body {
   }
 }
 
-
 .card-img-top{
  border-radius: 20px;
  padding: 10px; 
 }
-@media screen and (min-width:200px) and (max-width:300px) {
+@media screen and (min-width:481px) and (max-width:768px) {
 
   .img {
-    width: 80px;
+    width: 70px;
     height:190px
 
+  }
+  .card-text{
+    font-size: 10px;
   }
 }
 
