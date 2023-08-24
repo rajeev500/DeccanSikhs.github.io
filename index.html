@@ -19,6 +19,8 @@
     rel="stylesheet"> -->
 
   <!-- Vendor CSS Files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -41,9 +43,9 @@
 
 
  
-
+<body id="services" class="services section-bg">
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
+  <header id="header" >
     <div class="container d-flex align-items-center justify-content-between">
 
 
@@ -150,10 +152,10 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <body style="background-color:#eff0f2;">
+  
 <div class="container" data-aos="fade-up" >
-  <section>
-    <div class="row">
+  <section  >
+    <div class="row " >
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 mb-2">
         <div class="card">
         
@@ -204,22 +206,22 @@
     <main >
     
   
-      <div class="container">
+      <div class="container" >
     <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 mb-2">
   <div>
-     <div class="card" style="background-color: rgb(186, 214, 216);">
+     <div class="card" data-aos="flip-right" style="background-color: rgb(186, 214, 216);">
        
         <div class="card-body text-center">
             <img src="assets/img/audio.jpeg" alt="Audio Image" class="img-fluid rounded-circle mb-3" width="70px">
             <h6 class="card-title">Audio Track Title</h6>
             <audio id="audioPlayer" controls>
                 <!-- Replace the source URL with your audio URL -->
-                <source src="your-audio-file.mp3" type="audio/mpeg">
+                <source src="assets/songs/song1.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
         </div>
-       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </div>
 </div>
 
@@ -227,7 +229,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 mb-4">
-<div class="card " style="background-color: rgb(186, 214, 216);">
+<div class="card " data-aos="flip-left" style="background-color: rgb(186, 214, 216);">
  
   <div class="card-body text-center">
    
@@ -235,7 +237,11 @@
      
     <img src="assets/img/audio.jpeg" alt="Audio Image"  wid class="img-fluid rounded-circle mb-3" width="70px" >
     <h6 class="card-title">Audio Track Title</h6>
-    <audio id="audioPlayer" controls></audio>
+   <audio id="audioPlayer" controls>
+                <!-- Replace the source URL with your audio URL -->
+                <source src="assets/songs/song1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
       
          
   </div>
@@ -271,7 +277,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <div class="pb-3">
-        <div class="card mb-3" style="height: 400px;">
+        <div class="card mb-3" data-aos="fade-right" style="height: 400px;">
          
           <div class="card custom-card">
             <img src="assets/img/news1.jpeg" class="card-img-top1" alt="News Image 1" height="370px">
@@ -291,15 +297,15 @@
        <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-6">
           <div class="pb-3">
-          <div class="card " style="height: 210px;">
-            <img src="assets/img/news2.jpeg" class="card-img-top1" alt="News Image 1" height="250px">
+          <div class="card " data-aos="flip-left" data-aos-delay="200" style="height: 210px;">
+            <img src="assets/img/news2.jpeg" class="card-img-top1"  alt="News Image 1" height="250px">
             <!-- <div class="card-body">
               < <h6 class="card-title">News Title 2</h6> -->
               <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
               <!-- <a href="#" class="btn btn-primary">Read More</a> -->
           <!-- </div>  -->
         </div></div></div>
-        <div class="col-xs-12 col-md-6 col-lg-6"><div class="card mb-4" style="height: 210px;">
+        <div class="col-xs-12 col-md-6 col-lg-6"><div class="card mb-4" data-aos="flip-right" data-aos-delay="200" style="height: 210px;">
           <img src="assets/img/news5.jpeg" class="card-img-top1" alt="News Image 1" height="220px">
           <!-- <div class="card-body">
             <!- <h6 class="card-title">News Title 3</h6> -->
@@ -309,7 +315,7 @@
         </div></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-4" style="height: 200px;">
+        <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-4" data-aos="fade-left" style="height: 200px;">
           <img src="assets/img/hd2.jpg" class="card-img-top1" alt="News Image 1" height="200px">
           <div class="card-body">
             <!-- <h5 class="card-title">News Title 4</h5> -->
@@ -329,7 +335,7 @@
 
 <div>
   <div >
-  <div class="container mt-5"  data-aos="fade-up">
+  <div class="container mt-5"  >
 
    
     <div class="row">
@@ -346,7 +352,7 @@
     padding-left: 60px;
     font-weight: 400;
     line-height: 80%; /* 1.5rem */ 
-    padding-right: 0%;">Latest News In World</h4>
+    padding-right: 0%;" data-aos="fade-right">Latest News In World</h4>
             
   
                   <!-- <h5 class="card-title">News Title 1</h5>
@@ -362,8 +368,8 @@
          <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-12">
             <div class="pb-3">
-            <div class="card" style="height: 210px;">
-              <div class="display1">
+            <div class="card" style="height: 210px;" data-aos="fade-right">
+              <div class="display1" >
               <img src="assets/img/new3.jpeg" class="img" alt="News Image 1" height="220px">
              
               <div class="card-body">
@@ -380,8 +386,8 @@
         
         <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-12">
-            <div class="card mb-3" style="height: 210px;">
-              <div class="display1">
+            <div class="card mb-3" style="height: 210px;"data-aos="fade-right">
+              <div class="display1" >
             <img src="assets/img/new1.jpeg" class="img" alt="News Image 1" >
           <!-- <h6>Image</h6> -->
             <div class="card-body">
@@ -420,7 +426,7 @@
       
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="row">
-              <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-3" style="height: 550px;">
+              <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-3" data-aos="fade-down" style="height: 550px;">
                 <img src="assets/img/new5jpeg.jpeg" class="card-img-top" alt="News Image 1" height="280px">
                 <div class="card-body">
                   
@@ -433,8 +439,8 @@
           
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="row mb-3">
-              <div class="col-xs-12 col-md-12 col-lg-12"><div class="card" style="height: 172px;">
-                <div class="display1">
+              <div class="col-xs-12 col-md-12 col-lg-12"><div class="card" data-aos="fade-left"style="height: 172px;">
+                <div class="display1" >
                <img src="assets/img/new2.jpeg" class="img1" alt="News Image 1">
                <!-- <h6>Image</h6> -->
                <div class="card-body">
@@ -449,8 +455,8 @@
 
 
           <div class="row mb-3">
-            <div class="col-xs-12 col-md-12 col-lg-12"><div class="card " style="height: 172px;">
-              <div class="display1">
+            <div class="col-xs-12 col-md-12 col-lg-12"><div class="card " data-aos="fade-left" style="height: 172px;">
+              <div class="display1" >
                 <img src="assets/img/new2.jpeg" class="img1" alt="News Image 1">
                 <!-- <h6>Image</h6> -->
                 <div class="card-body">
@@ -466,8 +472,8 @@
 
 
         <div class="row">
-          <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-4 " style="height: 172px;">
-            <div class="display1">
+          <div class="col-xs-12 col-md-12 col-lg-12"><div class="card mb-4 " data-aos="fade-left" style="height: 172px;">
+            <div class="display1"  >
               <img src="assets/img/new2.jpeg" class="img1" alt="News Image 1">
               <!-- <h6>Image</h6> -->
               <div class="card-body">
@@ -496,12 +502,12 @@
    <!-- -------------------------- footer------ ----------------------------------->
 
 <div class="footer-top"  style="background-color:#d0e1e2;">
-      <div class="container"  >
+      <div class="container" data-aos="fade-up">
         <div class="row" >
 
           <div class="col-xs-12 col-lg-3 col-md-6 footer-contact mt-3">
             <h3>Gurudwara<span>.</span></h3>
-            <p>
+            <p data-aos="fade-left">
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
@@ -512,12 +518,15 @@
 
           <div class="col-xs-12 col-lg-3 col-md-6 footer-links mt-3">
             <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <ul data-aos="fade-left">
+              <li><i class="bx bx-chevron-right"></i> <a href="#" data-aos="flip-right" data-aos-delay="200">Home </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html" data-aos="flip-right" data-aos-delay="200">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="history.html" data-aos="flip-right" data-aos-delay="200">History</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="news.html" data-aos="flip-right" data-aos-delay="200">News</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="sikhism.html" data-aos="flip-right" data-aos-delay="200">Sikhism</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="dharamPrachar.html" data-aos="flip-right" data-aos-delay="200">Dharam Prachar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" data-aos="flip-right" data-aos-delay="200">Sangal Service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="donations.html" data-aos="flip-right" data-aos-delay="200">Donations</a></li>
             </ul>
           </div>
 
@@ -526,12 +535,13 @@
           <div class="col-xs-12 col-lg-3 col-md-6 footer-links mt-3">
             <h4>Our Social Networks</h4>
             <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <div class="social-links mt-3" >
+              <a href="#" class="twitter"><i class="bx bxl-twitter fs-2" style="color: #55acee;" data-aos="flip-right" data-aos-delay="200"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-whatsapp fs-2" style="color: #25d366;" data-aos="flip-right" data-aos-delay="200"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook fs-2" style="color: #3b5998;" data-aos="flip-right" data-aos-delay="200"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram fs-2" style="color: #ac2bac;;" data-aos="flip-right" data-aos-delay="200"></i></a>
+             
+              <a href="https://www.linkedin.com/in/rajeevnui" class="linkedin"><i class="bx bxl-linkedin fs-2" style="color:#0082ca;" data-aos="flip-right" data-aos-delay="200"></i></a>
             </div>
           </div>
 
