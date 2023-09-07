@@ -183,8 +183,26 @@ body {
   background-color: #3284f1;
 
 } */
+p {
+  
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.display{
+ display: flex;
+ flex-direction: row; 
+}
 
-
+@media screen and (min-width: 200px) and (max-width: 400px) {
+ 
+  
+  .display{
+    display: flex;
+    flex-direction: column; 
+   }
+}
 
 
 .display1{
@@ -298,6 +316,27 @@ body {
   font-size: 1px;
 }} */
 
+/* .gurunanak{
+  width: 60px;
+
+  height: 500px;
+} */
+
+
+.image-container {
+  max-width: 100%; /* Set the maximum width for the container */
+  height: auto;    /* Maintain aspect ratio while resizing */
+} 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio:2) {
+    .image-container {
+      max-width: 100%; /* Set the maximum width for the container */
+      height: 400px;    /* Maintain aspect ratio while resizing */
+    } 
+
+}
 
 .carousel-img{
 
@@ -305,11 +344,21 @@ body {
 
   height: 400px;
 }
-@media screen and (min-width:200px) and (max-width:500px) {
+.gurunanak{
+
+  width: 390px;
+   height: 500px;
+}
+@media screen and (min-width:0px) and (max-width:767px) {
   .carousel-img{
 
     width: 390px;
      height: 400px;
+  }
+  .gurunanak{
+
+    width: 370px;
+     height: 500px;
   }
 }
 
