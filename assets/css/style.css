@@ -321,8 +321,16 @@ p {
 
   height: 500px;
 } */
-
-
+/* h6{
+  ont-weight: bold;
+  color:black;
+  ont-size:26px
+} */
+h3{
+  ont-weight: bold;
+  color:black;
+  ont-size:26px
+}
 .image-container {
   max-width: 100%; /* Set the maximum width for the container */
   height: auto;    /* Maintain aspect ratio while resizing */
