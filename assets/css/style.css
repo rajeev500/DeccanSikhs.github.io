@@ -326,6 +326,9 @@ p {
   color:black;
   ont-size:26px
 } */
+.p1{
+  text-align: left;
+}
 h3{
   ont-weight: bold;
   color:black;
